@@ -1,0 +1,18 @@
+/**
+ * @name Devs
+ * @description A Beautiful theme for betterdiscord
+ * @author Frazix
+ * @version 1.0.0
+ * @source https://github.com/Frazix12/DEVS
+ * @updateUrl https://github.com/Frazix12/DEVS/blob/main/SimpleUi.theme.css
+ * @authorId 847030527822266378
+ * @invite ynWdPzqhdH
+ */
+
+@import url("https://frazix12.github.io/DEVS/base-css/main.min.css");
+
+:root{
+  --home-icon: url("https://i.imgur.com/1s8fbtT.png");
+  --font: "Poppins";
+  --code-font: "Source Code Pro";
+}
