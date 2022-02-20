@@ -820,3 +820,6 @@ code {
 .pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
   animation: spin 0.8s ease;
 }
+#bd-pub-li {
+  display: none;
+}
