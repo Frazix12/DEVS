@@ -1,0 +1,25 @@
+/**
+ * @name Devs
+ * @description A Beautiful theme for betterdiscord
+ * @author Frazix
+ * @version 2.2.0
+ * @source https://github.com/Frazix12/DEVS
+ * @updateUrl https://github.com/Frazix12/DEVS/blob/main/Devs.theme.css
+ * @authorId 847030527822266378
+ * @invite ynWdPzqhdH
+ */
+
+/* Import-main */
+@import url("https://frazix.is-a.dev/DEVS/base-css/main.css");
+/* Import-Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+:root {
+  --home-icon: url("https://cdn.discordapp.com/attachments/896994497135775757/1030743449944735805/download-removebg-preview.png");
+  --customFont: "Poppins";
+  --code-font: "Source Code Pro";
+  --user-name: "Frazix";
+  --Background: #17161b;
+  /* --Background: url("https://cdn.discordapp.com/attachments/955884683940483104/995325889988538459/astraa.gif"); */
+}
