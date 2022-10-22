@@ -16,6 +16,9 @@
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css");
 
 :root {
+  --js: url("https://cdn.discordapp.com/attachments/896994497135775757/1030743449944735805/download-removebg-preview.png");
+  --py: url("https://cdn.discordapp.com/attachments/896994497135775757/1032934131027431464/5848152fcef1014c0b5e4967.png");
+
   --window-margin: 20px;
   --window-blur: 5px;
   --window-colour: #101014;
@@ -33,7 +36,7 @@
   --interactive-hover: #dcddde;
   --interactive-active: #c9ced0;
   --interactive-muted: #4f545c;
-  --background-primary: #101014;
+  --background-primary: #101014 !important;
   --background-secondary: #17161b;
   --background-secondary-alt: #17161b;
   --background-tertiary: #101014;
@@ -75,6 +78,44 @@
   --chat-bubble-box-shadow-color-s: 0%;
   --chat-bubble-box-shadow-color-l: 0%;
   --chat-bubble-box-shadow-color-a: 0.16;
+}
+
+.theme-dark {
+  --text-normal: #dcddde;
+  --text-muted: #4a4a52;
+  --text-link: #6e6af6;
+  --text-positive: #50dc7d;
+  --text-warning: #8d4949;
+  --text-danger: #8d4949;
+  --text-brand: #6e6af6;
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dcddde;
+  --interactive-active: #c9ced0;
+  --interactive-muted: #4f545c;
+  --background-primary: #101014 !important;
+  --background-secondary: #17161b;
+  --background-secondary-alt: #17161b;
+  --background-tertiary: #101014;
+  --background-accent: #4f545c;
+  /* --background-floating: #17161b; */
+  --background-floating: var(--Background);
+  --channeltextarea-background: #17161b;
+  --info-positive-text: #fff;
+  --info-warning-text: #fff;
+  --info-warning-foreground: #6e6af6;
+  --info-danger-text: #fff;
+  --info-help-text: #fff;
+  --status-warning-text: #000;
+  --background-mentioned: #6f6af62c;
+  --background-mentioned-hover: #6f6af615;
+  --background-message-hover: rgba(4, 4, 5, 0.07);
+  --scrollbar-auto-thumb: #6e6af6;
+  --brand-experiment: #6e6af6;
+  --brand-experiment-hover: #6f6af64d;
+  --brand-experiment-560: #6e6af6;
+  --channels-default: #4a4a52;
+  --selected-indicator: #97ffa5;
+  --hover-indicator: #ffffff;
 }
 
 .embedThumbnail-2nTasl {
@@ -1072,7 +1113,7 @@ div#ZeresPluginLibrary-card {
   }
 }
 
-.homeIcon-r0w4ny {
+.childWrapper-1j_1ub:hover .homeIcon-r0w4ny {
   animation: spin 0.8s ease;
 }
 
@@ -1192,4 +1233,100 @@ html .floating-window.resizable {
 .input-2_SIlA {
   background-color: var(--deprecated-text-input-bg);
   border: 1px solid var(--deprecated-text-input-border);
+}
+
+.headerTop-3GPUSF {
+  overflow: visible;
+}
+
+#app-mount [data-user-id="847030527822266378"] .badgeList-2aoHPw::after,
+#app-mount [data-user-id="847030527822266378"] .profileBadges-31rDHI::before,
+#app-mount [data-user-id="847030527822266378"] .badges-XRnWAp::after {
+  content: "";
+  position: relative;
+  right: 0px;
+  top: 0px;
+  width: 22px;
+  height: 22px;
+  background: url(https://user-images.githubusercontent.com/87679354/142162167-73796362-b916-4f13-a2bc-156ed2484a65.png) center / 100% 100%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#app-mount [data-user-id="847030527822266378"] .profileBadges-31rDHI:hover::after {
+  content: "TheCommieAxolotl";
+  position: absolute;
+  display: flex;
+  color: var(--text-normal);
+  font-weight: 600;
+  font-size: 10pt;
+  z-index: 999;
+  transform: translateY(-40px) translateX(10px);
+  padding: 10px 12px;
+  border-radius: 4px;
+  box-shadow: var(--elevation-high);
+  background-color: var(--background-floating);
+}
+
+
+/* #2c2e33 */
+#app-mount .background-fkKrXt,
+#app-mount .container-3wLKDe {
+    background-color: var(--background-primary);
+}
+
+/* #36393f */
+#app-mount .container-2cd8Mz,
+#app-mount .perksModal-CLcR1c,
+#app-mount .pageWrapper-2PwDoS,
+#app-mount .tierMarkerBackground-G8FoN4 {
+    background-color: var(--background-primary);
+}
+
+/* #202225 */
+#app-mount .tierBody-3ju-rc {
+    background-color: var(--background-tertiary);
+}
+
+/* #18191c */
+#app-mount .tierHeaderLocked-3ItHYn {
+    background-color: var(--background-floating);
+}
+
+/* #2f3136 */
+#app-mount .autocomplete-3NRXG8,
+.categoryHeader-OpJ1Ly,
+#app-mount .perk-19D_HN {
+    background-color: var(--background-nested-floating);
+}
+
+#app-mount .headerBarInner-2pcZSM:after {
+    background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-primary));
+}
+
+#app-mount .option-ayUoaq:after {
+    background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-floating));
+}
+
+#app-mount .option-ayUoaq:hover:after {
+    background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-primary));
+}
+.bd-error-modal-header,
+.bd-error-modal-content {
+    background-color: var(--background-secondary) !important;
+}
+:root {
+  --version: "2.2.0";
+}
+
+#app-mount .app-2CXKsg::before {
+  content: "Your version of Ultra is outdated. Please download the newest version from source";
+  display: var(--version2_2_0, block);
+  background-color: var(--brand-experiment);
+  color: #fff;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 500;
+  text-align: center;
+  z-index: 101;
 }
