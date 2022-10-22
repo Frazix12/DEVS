@@ -16,7 +16,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 
 :root {
-  --home-icon: url("https://cdn.discordapp.com/attachments/896994497135775757/1030743449944735805/download-removebg-preview.png");
+  --version2_2_0: none;
+  --home-icon: var(--js);
   --customFont: "Poppins";
   --code-font: "Source Code Pro";
   --user-name: "Frazix";
